@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:nextgen_hackathon/chat.dart';
 import 'package:nextgen_hackathon/nav.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class SettingsScreen extends StatelessWidget {
+  const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('My App'),
+          title: const Text('Settings'),
         ),
         drawer: const NavWidget(),
         body: Container(
           color: Theme.of(context).colorScheme.secondaryContainer,
-          child: const ChatWidget(),
+          // child: const ChatWidget(),
         ),
       ),
     );

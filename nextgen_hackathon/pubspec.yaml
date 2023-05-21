@@ -41,6 +41,7 @@ dependencies:
   flutter_chat_ui: ^1.6.8
   firebase_ui_auth: ^1.4.1
   flutter_chat_types: ^3.6.1
+  dart_openai: ^1.9.92
 
 dev_dependencies:
   flutter_test:

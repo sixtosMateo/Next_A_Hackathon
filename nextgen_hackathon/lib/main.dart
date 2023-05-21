@@ -2,7 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:nextgen_hackathon/curriculum.dart';
 import 'package:nextgen_hackathon/home.dart';
+import 'package:nextgen_hackathon/topic.dart';
+import 'package:nextgen_hackathon/quiz.dart';
+import 'package:nextgen_hackathon/settings.dart';
+import 'package:nextgen_hackathon/results.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -43,12 +48,30 @@ class MyApp extends StatelessWidget {
               AuthStateChangeAction<SignedIn>((context, state) {
                 // When the user signs in, this callback is called.
                 Navigator.pushReplacementNamed(context, '/home');
+                // Navigator.pushReplacementNamed(context, '/topic');
+                // Navigator.pushReplacementNamed(context, '/quiz');
+                // Navigator.pushReplacementNamed(context, '/settings');
               }),
             ],
           );
         },
         '/home': (context) {
           return const HomeScreen();
+        },
+        '/topic': (context) {
+          return const TopicScreen();
+        },
+        '/curriculum': (context) {
+          return const CurriculumScreen();
+        },
+        '/quiz': (context) {
+          return const QuizScreen();
+        },
+        '/results': (context) {
+          return const ResultsScreen();
+        },
+        '/settings': (context) {
+          return const SettingsScreen();
         },
         '/profile': (context) {
           return ProfileScreen(
