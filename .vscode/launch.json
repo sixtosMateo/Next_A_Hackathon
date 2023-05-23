@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "nextgen_hackathon",
+            "cwd": "nextgen_hackathon",
+            "request": "launch",
+            "type": "dart",
+        "args": ["--dart-define=OPENAI=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"]
+            },
+        {
+            "name": "nextgen_hackathon (profile mode)",
+            "cwd": "nextgen_hackathon",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "nextgen_hackathon (release mode)",
+            "cwd": "nextgen_hackathon",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
