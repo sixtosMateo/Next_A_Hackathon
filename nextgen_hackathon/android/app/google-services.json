@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489085161994",
+    "project_id": "nextgen-hackathon",
+    "storage_bucket": "nextgen-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489085161994:android:0e871305b59eefe56d85f3",
+        "android_client_info": {
+          "package_name": "com.example.nextgen_hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489085161994-ltgk0chpba9svhedk0el0kn9b7vaups4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAoa_Grt-JB9LtAyylJySTT03SVKiRz1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489085161994-ltgk0chpba9svhedk0el0kn9b7vaups4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
